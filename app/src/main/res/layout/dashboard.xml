@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Новинки"
+        android:textColor="@color/colorRed"
+        android:textSize="20dp"
+        android:paddingBottom="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+
+
+           <ImageButton
+               android:id="@+id/imgbutton"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/sandwich2"/>
+
+
+            <ImageButton
+                android:id="@+id/imgbutto1"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sandwich"/>
+
+            <ImageButton
+                android:id="@+id/imgbutton3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sandwich3"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="150dp" />
+
+
+            <!-- Content here -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Картошка"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageButton
+                android:id="@+id/imgbutto4"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/fri"/>
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:id="@+id/imgbutton5"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/fri"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:id="@+id/imgbutton6"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/fri"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="150dp" />
+
+
+            <!-- Content here -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Напитки"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+
+
+            <ImageButton
+                android:id="@+id/imgbutton7"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pepsi"/>
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:id="@+id/imgbutton8"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pepsi"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:id="@+id/imgbutton9"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pepsi"/>
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="150dp" />
+
+
+            <!-- Content here -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
